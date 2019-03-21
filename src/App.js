@@ -16,7 +16,7 @@ class App extends React.Component{
       })
     })
   }
-  
+
   render(){
     return(
       {this.state.people.map((people)=>{
