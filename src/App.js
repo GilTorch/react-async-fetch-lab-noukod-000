@@ -8,6 +8,7 @@ class App extends React.Component{
   }
 
   componentDidMount(){
+    const this=this.bind(this)
     fetch("/http://api.open-notify.org/astros.json")
     .then((res)=>res.json())
     .then((jsonRes)={
